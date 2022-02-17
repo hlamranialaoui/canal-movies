@@ -1,6 +1,6 @@
 import React from 'react';
-import {cleanup} from "@testing-library/react";
-import {AxiosResponse} from "axios";
+import { cleanup } from "@testing-library/react";
+import { AxiosResponse } from "axios";
 import {MoviesMock} from "./mocks/CanalMoviesComponentMocks";
 import actions from "../actions";
 
