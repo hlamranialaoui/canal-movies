@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders canal movies app entry renders movies 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <nav
+      class="navbar navbar-light p-0"
+    >
+      <div
+        class="container-fluid px-5"
+      >
+        <a
+          class="navbar-brand"
+        >
+          CANAL Movies
+        </a>
+      </div>
+    </nav>
+    <div
+      class="bg-img"
+    >
+      <div
+        class="layer"
+      >
+        <div
+          class="row w-100"
+        >
+          <div
+            class="col-md-2 col-1"
+          />
+          <div
+            class="col-md-8 col-8"
+          >
+            <div
+              class="input-group mb-3"
+            >
+              <input
+                class="form-control"
+                placeholder="search movie"
+                type="text"
+              />
+              <span
+                class="input-group-text"
+                id="basic-addon2"
+              >
+                Search by movie name
+              </span>
+            </div>
+          </div>
+          <div
+            class="col-md-2 col-1"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="infinite-scroll-component__outerdiv"
+    >
+      <div
+        class="infinite-scroll-component "
+        style="height: auto; overflow: none;"
+      >
+        <div
+          class="row"
+        >
+          <section
+            class="col-lg-3"
+          >
+            <div
+              class="container"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="col-lg-12"
+                >
+                  <img
+                    alt="single"
+                    src="https://image.tmdb.org/t/p/w500/string"
+                    style="max-width: 80%;"
+                  />
+                </div>
+              </div>
+              <div
+                class="row align-items-center p-2"
+              >
+                <div
+                  class="col-lg-12"
+                >
+                  <h5>
+                    ORIGINAL_TITLE
+                  </h5>
+                  <p
+                    class="movie-vote-average"
+                  >
+                    <i
+                      class="bi bi-star-fill"
+                    />
+                     3
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section
+            class="col-lg-3"
+          >
+            <div
+              class="container"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="col-lg-12"
+                >
+                  <img
+                    alt="single"
+                    src="https://image.tmdb.org/t/p/w500/string"
+                    style="max-width: 80%;"
+                  />
+                </div>
+              </div>
+              <div
+                class="row align-items-center p-2"
+              >
+                <div
+                  class="col-lg-12"
+                >
+                  <h5>
+                    ORIGINAL_TITLE
+                  </h5>
+                  <p
+                    class="movie-vote-average"
+                  >
+                    <i
+                      class="bi bi-star-fill"
+                    />
+                     3
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <p>
+          No further results found
+        </p>
+      </div>
+    </div>
+    )
+  </div>
+</DocumentFragment>
+`;

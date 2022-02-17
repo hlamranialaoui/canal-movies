@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders canal movie component renders movie component 1`] = `
+<DocumentFragment>
+  <section
+    class="col-lg-3"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-lg-12"
+        >
+          <img
+            alt="single"
+            src="https://image.tmdb.org/t/p/w500/posterPath"
+            style="max-width: 80%;"
+          />
+        </div>
+      </div>
+      <div
+        class="row align-items-center p-2"
+      >
+        <div
+          class="col-lg-12"
+        >
+          <h5>
+            originalName
+          </h5>
+          <p
+            class="movie-vote-average"
+          >
+            <i
+              class="bi bi-star-fill"
+            />
+             2
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;
+
+exports[`renders canal movies app entry renders movies 1`] = `
+<DocumentFragment>
+  <section
+    class="col-lg-3"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-lg-12"
+        >
+          <img
+            alt="single"
+            src="https://image.tmdb.org/t/p/w500/posterPath"
+            style="max-width: 80%;"
+          />
+        </div>
+      </div>
+      <div
+        class="row align-items-center p-2"
+      >
+        <div
+          class="col-lg-12"
+        >
+          <h5>
+            originalName
+          </h5>
+          <p
+            class="movie-vote-average"
+          >
+            <i
+              class="bi bi-star-fill"
+            />
+             2
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders canal search component renders search component 1`] = `
+<DocumentFragment>
+  <div
+    class="bg-img"
+  >
+    <div
+      class="layer"
+    >
+      <div
+        class="row w-100"
+      >
+        <div
+          class="col-md-2 col-1"
+        />
+        <div
+          class="col-md-8 col-8"
+        >
+          <div
+            class="input-group mb-3"
+          >
+            <input
+              class="form-control"
+              placeholder="search movie"
+              type="text"
+            />
+            <span
+              class="input-group-text"
+              id="basic-addon2"
+            >
+              Search by movie name
+            </span>
+          </div>
+        </div>
+        <div
+          class="col-md-2 col-1"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
