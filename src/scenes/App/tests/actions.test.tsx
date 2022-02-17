@@ -1,8 +1,6 @@
 import React from 'react';
-import { cleanup } from "@testing-library/react";
-//import "jest-dom/extend-expect";
-import { AxiosResponse } from "axios";
-//import actions from "../actions";
+import {cleanup} from "@testing-library/react";
+import {AxiosResponse} from "axios";
 import {MoviesMock} from "./mocks/CanalMoviesComponentMocks";
 import actions from "../actions";
 
@@ -65,7 +63,3 @@ describe('filterMoviesList', () => {
         expect(axios.get).toBeTruthy();
     });
 });
-
-
-
-
