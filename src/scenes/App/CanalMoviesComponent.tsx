@@ -18,8 +18,8 @@ export interface IPaginatedMovies {
 interface IAppComponentProps {
     trendingMovies: IPaginatedMovies;
     filteredMovies: IPaginatedMovies;
-    loadMovieList: any;
-    filterMovieList: any;
+    loadMovieList: Function;
+    filterMovieList: Function;
 }
 
 const FilteredMoviesView = ({movies, getMoreData}) => (
